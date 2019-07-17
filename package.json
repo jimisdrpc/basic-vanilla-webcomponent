@@ -24,6 +24,7 @@
     "format:prettier": "prettier \"**/*.js\" --write"
   },
   "devDependencies": {
+    "@open-wc/testing": "^1.0.14",
     "@webcomponents/webcomponentsjs": "^2.2.0",
     "babel-eslint": "^10.0.2",
     "es-dev-server": "^1.6.3",
