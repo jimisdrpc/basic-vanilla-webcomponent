@@ -16,7 +16,8 @@ describe("just test if it was rendered", () => {
   });
 
   it("second try (using fixture)", async () => {
-    const el = await fixture("<my-component></my-component>");
+    //const el = await fixture("<my-component></my-component>");
+    const el = await fixture.load("<my-component></my-component>");
     expect(el.success).to.be.false;
     //expect(el.querySelector("mydiv")).toBeTruthy();
   });
