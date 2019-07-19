@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "^1.0.14",
+    "@open-wc/testing-karma": "^3.0.3",
     "@webcomponents/webcomponentsjs": "^2.2.0",
     "babel-eslint": "^10.0.2",
     "es-dev-server": "^1.6.3",
@@ -32,6 +33,7 @@
     "eslint-config-google": "^0.13.0",
     "karma": "^4.2.0",
     "karma-chrome-launcher": "^3.0.0",
+    "karma-fixture": "^0.2.6",
     "karma-jasmine": "^2.0.1",
     "karma-script-launcher": "^1.0.0",
     "karma-spec-reporter": "0.0.32",
