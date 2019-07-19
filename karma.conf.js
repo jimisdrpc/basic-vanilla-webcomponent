@@ -1,7 +1,7 @@
 module.exports = function(config) {
   config.set({
     basePath: "",
-    frameworks: ["fixture","jasmine"],
+    frameworks: ["fixture", "jasmine"],
     files: [
       "node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js",
       {
@@ -11,6 +11,9 @@ module.exports = function(config) {
       },
       { pattern: "**/*.js", type: "module", included: false }
     ],
+    esm: {
+      nodeResolve: true
+    },
     exclude: [],
     preprocessors: {},
     reporters: ["spec"],
