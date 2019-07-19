@@ -5,7 +5,7 @@ module.exports = function(config) {
     files: [
       "node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js",
       {
-        pattern: "**/*.test-without-openwc.js",
+        pattern: "**/*.test-with-openwc.js",
         type: "module",
         included: true
       },
