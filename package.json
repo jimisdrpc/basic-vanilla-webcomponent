@@ -24,11 +24,12 @@
     "format:prettier": "prettier \"**/*.js\" --write"
   },
   "devDependencies": {
-    "@open-wc/testing": "^1.0.14",
-    "@open-wc/testing-karma": "^3.0.3",
+    "@open-wc/testing": "^2.0.3",
+    "@open-wc/testing-karma": "^3.0.4",
     "@webcomponents/webcomponentsjs": "^2.2.0",
     "babel-eslint": "^10.0.2",
-    "es-dev-server": "^1.6.3",
+    "deepmerge": "^4.0.0",
+    "es-dev-server": "^1.6.7",
     "eslint": "^6.0.1",
     "eslint-config-google": "^0.13.0",
     "karma": "^4.2.0",
@@ -37,6 +38,7 @@
     "karma-jasmine": "^2.0.1",
     "karma-script-launcher": "^1.0.0",
     "karma-spec-reporter": "0.0.32",
+    "lit-element": "^2.2.0",
     "prettier": "1.18.2",
     "wct-browser-legacy": "^1.0.2",
     "web-component-tester": "^6.9.2"
